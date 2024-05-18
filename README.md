@@ -119,4 +119,15 @@ Para este projeto, o método CRISP-DM foi utilizado, contando com os 10 passos a
 ![shape](https://github.com/pammagalhaes/Predict_house_prices/assets/113152370/c0395056-d746-4188-8adb-b8e29f653696)
 **False** - A maioria  dos lotes tem um tamanho parecido, e o preço do imóvel pode ser mais alto devido a outros fatores.
 
+# 5. Machine Learning Model
+Após a preparação dos dados, foram desenvolvidos e treinados dois modelos de Aprendizado de Máquina para identificar o algoritmo mais eficaz em descrever e resolver o problema proposto:
 
+**LightGBM**
+
+**XGBoost Regressor**
+
+Cada modelo foi treinado e avaliado usando métricas como **MAE**, **MAPE** e **RMSE**. Além disso, foi realizado o processo de Cross-Validation (validação cruzada) nesta etapa para garantir que os modelos não apresentassem viés devido à separação específica dos dados de validação.
+
+O modelo final escolhido foi o **XGBoost Regressor**, devido a um bom desempenho na análise das métricas e por ter um processamento mais leve que os modelos de árvore.
+
+# 6. Deploy do modelo
