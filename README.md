@@ -1,5 +1,6 @@
 # 1.Business Problem
-Com 79 variáveis explicativas que descrevem (quase) todos os aspectos das residências em Ames, Iowa, o desafio desse projeto foi prever o preço final de cada casa.
+
+Com 79 variáveis explicativas que descrevem (quase) todos os aspectos das residências em Ames, Iowa, o desafio deste projeto foi prever o preço final de cada casa. Estas variáveis abrangem desde características físicas das propriedades, como o tamanho do lote e a área habitável, até detalhes mais específicos, como o tipo de aquecimento e a qualidade da cozinha. Utilizando esses dados detalhados, o objetivo era construir um modelo de regressão capaz de prever com precisão o valor de venda das casas.
 
 # 2.Context Analysis
 - **SalePrice**: o preço de venda da propriedade em dólares. Esta é a variável alvo que você está tentando prever.
@@ -134,4 +135,4 @@ O modelo final escolhido foi o **XGBoost Regressor**, devido a um bom desempenho
 # 6. Resultado do modelo
 <img width="365" alt="image" src="https://github.com/pammagalhaes/Predict_house_prices/assets/113152370/341bfda5-9660-4082-b896-dfd1073123bb">
 
-Esse modelo de regressão para previsão de preços de casas obteve um MAPE (Erro Percentual Absoluto Médio) de 9,77%. Isso significa que, em média, as previsões do modelo desviam-se dos valores reais em aproximadamente 9,77%. No contexto de negociações imobiliárias, um MAPE de 9,77% indica que o modelo é relativamente preciso, mas ainda há margem para melhorias. 
+Ao desenvolver um modelo de previsão de preços de casas, um Mean Absolute Percentage Error (MAPE) de 9,77% foi obtido. Este valor indica que, em média, a previsão do modelo desvia-se do preço real das casas em aproximadamente 9,77%. Em contextos de previsão de preços imobiliários, um MAPE abaixo de 10% é geralmente considerado um bom resultado, pois sugere que o modelo é bastante preciso e pode ser confiavelmente utilizado para estimativas de preço de venda. Este nível de precisão é particularmente útil para proprietários, agentes imobiliários e investidores, que podem usar essas previsões para tomar decisões informadas sobre compra, venda e investimento em propriedades.
