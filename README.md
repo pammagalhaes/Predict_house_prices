@@ -104,7 +104,7 @@ Para este projeto, o método CRISP-DM foi utilizado, contando com os 10 passos a
 
 9 - Avaliação do Algoritmo: Aqui, avalia-se o algoritmo com os dados de teste previamente separados, de acordo com métricas alinhadas ao tipo de aprendizado dos modelos de Machine Learning. Ao final, a parte mais importante: traduzir a performance do algoritmo para resultados em termos de negócio e receitas para a empresa e mostrar a diferença, além do impacto que a utilização das técnicas trabalhadas aqui proporcionam para o desenvolvimento da empresa.
 
-10 - Modelo em Produção: Por fim, o modelo avaliado é publicado (Deploy).
+10 - Modelo em Produção: Por fim, o modelo avaliado é publicado (Deploy). Neste caso não foi feito um deploy do modelo.
 
 # 4. Top 3 Insights
 ### H1 - O momento da venda pode afetar os preços, com possíveis variações sazonais.
@@ -113,6 +113,7 @@ Para este projeto, o método CRISP-DM foi utilizado, contando com os 10 passos a
 
 ### H2 - Data de construção original (YearBuilt). Quanto mais antigo mais barato o imóvel.
 ![age](https://github.com/pammagalhaes/Predict_house_prices/assets/113152370/8b84dbed-755c-4a67-86f6-1657e46e657f)
+
 **True** - A idade do imóvel influencia no preço de venda.
 
 ### H3 - Propriedades com lotes maiores tendem a ter preços mais altos devido ao espaço adicional e potencial para expansão.
@@ -132,4 +133,5 @@ O modelo final escolhido foi o **XGBoost Regressor**, devido a um bom desempenho
 
 # 6. Resultado do modelo
 <img width="365" alt="image" src="https://github.com/pammagalhaes/Predict_house_prices/assets/113152370/341bfda5-9660-4082-b896-dfd1073123bb">
+
 Esse modelo de regressão para previsão de preços de casas obteve um MAPE (Erro Percentual Absoluto Médio) de 9,77%. Isso significa que, em média, as previsões do modelo desviam-se dos valores reais em aproximadamente 9,77%. No contexto de negociações imobiliárias, um MAPE de 9,77% indica que o modelo é relativamente preciso, mas ainda há margem para melhorias. 
