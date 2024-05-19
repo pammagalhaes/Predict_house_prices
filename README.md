@@ -2,86 +2,86 @@
 Com 79 variáveis explicativas que descrevem (quase) todos os aspectos das residências em Ames, Iowa, o desafio desse projeto foi prever o preço final de cada casa.
 
 # 2.Context Analysis
-SalePrice - the property's sale price in dollars. This is the target variable that you're trying to predict.
-MSSubClass: The building class
-MSZoning: The general zoning classification
-LotFrontage: Linear feet of street connected to property
-LotArea: Lot size in square feet
-Street: Type of road access
-Alley: Type of alley access
-LotShape: General shape of property
-LandContour: Flatness of the property
-Utilities: Type of utilities available
-LotConfig: Lot configuration
-LandSlope: Slope of property
-Neighborhood: Physical locations within Ames city limits
-Condition1: Proximity to main road or railroad
-Condition2: Proximity to main road or railroad (if a second is present)
-BldgType: Type of dwelling
-HouseStyle: Style of dwelling
-OverallQual: Overall material and finish quality
-OverallCond: Overall condition rating
-YearBuilt: Original construction date
-YearRemodAdd: Remodel date
-RoofStyle: Type of roof
-RoofMatl: Roof material
-Exterior1st: Exterior covering on house
-Exterior2nd: Exterior covering on house (if more than one material)
-MasVnrType: Masonry veneer type
-MasVnrArea: Masonry veneer area in square feet
-ExterQual: Exterior material quality
-ExterCond: Present condition of the material on the exterior
-Foundation: Type of foundation
-BsmtQual: Height of the basement
-BsmtCond: General condition of the basement
-BsmtExposure: Walkout or garden level basement walls
-BsmtFinType1: Quality of basement finished area
-BsmtFinSF1: Type 1 finished square feet
-BsmtFinType2: Quality of second finished area (if present)
-BsmtFinSF2: Type 2 finished square feet
-BsmtUnfSF: Unfinished square feet of basement area
-TotalBsmtSF: Total square feet of basement area
-Heating: Type of heating
-HeatingQC: Heating quality and condition
-CentralAir: Central air conditioning
-Electrical: Electrical system
-1stFlrSF: First Floor square feet
-2ndFlrSF: Second floor square feet
-LowQualFinSF: Low quality finished square feet (all floors)
-GrLivArea: Above grade (ground) living area square feet
-BsmtFullBath: Basement full bathrooms
-BsmtHalfBath: Basement half bathrooms
-FullBath: Full bathrooms above grade
-HalfBath: Half baths above grade
-Bedroom: Number of bedrooms above basement level
-Kitchen: Number of kitchens
-KitchenQual: Kitchen quality
-TotRmsAbvGrd: Total rooms above grade (does not include bathrooms)
-Functional: Home functionality rating
-Fireplaces: Number of fireplaces
-FireplaceQu: Fireplace quality
-GarageType: Garage location
-GarageYrBlt: Year garage was built
-GarageFinish: Interior finish of the garage
-GarageCars: Size of garage in car capacity
-GarageArea: Size of garage in square feet
-GarageQual: Garage quality
-GarageCond: Garage condition
-PavedDrive: Paved driveway
-WoodDeckSF: Wood deck area in square feet
-OpenPorchSF: Open porch area in square feet
-EnclosedPorch: Enclosed porch area in square feet
-3SsnPorch: Three season porch area in square feet
-ScreenPorch: Screen porch area in square feet
-PoolArea: Pool area in square feet
-PoolQC: Pool quality
-Fence: Fence quality
-MiscFeature: Miscellaneous feature not covered in other categories
-MiscVal: $Value of miscellaneous feature
-MoSold: Month Sold
-YrSold: Year Sold
-SaleType: Type of sale
-SaleCondition: Condition of sale
+- **SalePrice**: o preço de venda da propriedade em dólares. Esta é a variável alvo que você está tentando prever.
+- **MSSubClass**: a classe do edifício.
+- **MSZoning**: a classificação geral de zoneamento.
+- **LotFrontage**: metros lineares de rua conectados à propriedade.
+- **LotArea**: tamanho do lote em pés quadrados.
+- **Street**: tipo de acesso à estrada.
+- **Alley**: tipo de acesso ao beco.
+- **LotShape**: forma geral da propriedade.
+- **LandContour**: planicidade da propriedade.
+- **Utilities**: tipo de utilidades disponíveis.
+- **LotConfig**: configuração do lote.
+- **LandSlope**: inclinação da propriedade.
+- **Neighborhood**: localizações físicas dentro dos limites da cidade de Ames.
+- **Condition1**: proximidade à estrada principal ou ferrovia.
+- **Condition2**: proximidade à estrada principal ou ferrovia (se houver uma segunda).
+- **BldgType**: tipo de habitação.
+- **HouseStyle**: estilo da habitação.
+- **OverallQual**: qualidade geral do material e acabamento.
+- **OverallCond**: avaliação geral das condições.
+- **YearBuilt**: data de construção original.
+- **YearRemodAdd**: data da reforma.
+- **RoofStyle**: tipo de telhado.
+- **RoofMatl**: material do telhado.
+- **Exterior1st**: revestimento exterior da casa.
+- **Exterior2nd**: revestimento exterior da casa (se houver mais de um material).
+- **MasVnrType**: tipo de revestimento de alvenaria.
+- **MasVnrArea**: área do revestimento de alvenaria em pés quadrados.
+- **ExterQual**: qualidade do material exterior.
+- **ExterCond**: condição atual do material exterior.
+- **Foundation**: tipo de fundação.
+- **BsmtQual**: altura do porão.
+- **BsmtCond**: condição geral do porão.
+- **BsmtExposure**: paredes do porão walkout ou garden level.
+- **BsmtFinType1**: qualidade da área acabada do porão.
+- **BsmtFinSF1**: tipo 1 de área acabada em pés quadrados.
+- **BsmtFinType2**: qualidade da segunda área acabada (se houver).
+- **BsmtFinSF2**: tipo 2 de área acabada em pés quadrados.
+- **BsmtUnfSF**: área não acabada do porão em pés quadrados.
+- **TotalBsmtSF**: área total do porão em pés quadrados.
+- **Heating**: tipo de aquecimento.
+- **HeatingQC**: qualidade e condição do aquecimento.
+- **CentralAir**: ar condicionado central.
+- **Electrical**: sistema elétrico.
+- **1stFlrSF**: área do primeiro andar em pés quadrados.
+- **2ndFlrSF**: área do segundo andar em pés quadrados.
+- **LowQualFinSF**: área acabada de baixa qualidade (todos os andares).
+- **GrLivArea**: área habitável acima do solo em pés quadrados.
+- **BsmtFullBath**: banheiros completos no porão.
+- **BsmtHalfBath**: banheiros de meio no porão.
+- **FullBath**: banheiros completos acima do solo.
+- **HalfBath**: banheiros de meio acima do solo.
+- **Bedroom**: número de quartos acima do nível do porão.
+- **Kitchen**: número de cozinhas.
+- **KitchenQual**: qualidade da cozinha.
+- **TotRmsAbvGrd**: total de quartos acima do solo (não inclui banheiros).
+- **Functional**: avaliação da funcionalidade da casa.
+- **Fireplaces**: número de lareiras.
+- **FireplaceQu**: qualidade da lareira.
+- **GarageType**: localização da garagem.
+- **GarageYrBlt**: ano de construção da garagem.
+- **GarageFinish**: acabamento interior da garagem.
+- **GarageCars**: capacidade da garagem em número de carros.
+- **GarageArea**: área da garagem em pés quadrados.
+- **GarageQual**: qualidade da garagem.
+- **GarageCond**: condição da garagem.
+- **PavedDrive**: entrada pavimentada.
+- **WoodDeckSF**: área do deck de madeira em pés quadrados.
+- **OpenPorchSF**: área da varanda aberta em pés quadrados.
+- **EnclosedPorch**: área da varanda fechada em pés quadrados.
+- **3SsnPorch**: área da varanda de três estações em pés quadrados.
+- **ScreenPorch**: área da varanda com tela em pés quadrados.
+- **PoolArea**: área da piscina em pés quadrados.
+- **PoolQC**: qualidade da piscina.
+- **Fence**: qualidade da cerca.
+- **MiscFeature**: característica miscelânea não coberta em outras categorias.
+- **MiscVal**: valor em dólares da característica miscelânea.
+- **MoSold**: mês de venda.
+- **YrSold**: ano de venda.
+- **SaleType**: tipo de venda.
+- **SaleCondition**: condição de venda.
 
 # 3. Solution Strategy
 Para este projeto, o método CRISP-DM foi utilizado, contando com os 10 passos abaixo: 
@@ -109,11 +109,11 @@ Para este projeto, o método CRISP-DM foi utilizado, contando com os 10 passos a
 # 4. Top 3 Insights
 ### H1 - O momento da venda pode afetar os preços, com possíveis variações sazonais.
 ![sales](https://github.com/pammagalhaes/Predict_house_prices/assets/113152370/fc1b864e-a522-4360-8fa3-eb802f8b550a)
-**True** Realmente há meses em que há mais vendas que outros meses, e nesses meses com mais vendas houve redução de preço.
+**True** - Realmente há meses em que há mais vendas que outros meses, e nesses meses com mais vendas houve redução de preço.
 
 ### H2 - Data de construção original (YearBuilt). Quanto mais antigo mais barato o imóvel.
 ![age](https://github.com/pammagalhaes/Predict_house_prices/assets/113152370/8b84dbed-755c-4a67-86f6-1657e46e657f)
-**True** A idade do imóvel influencia no preço de venda.
+**True** - A idade do imóvel influencia no preço de venda.
 
 ### H3 - Propriedades com lotes maiores tendem a ter preços mais altos devido ao espaço adicional e potencial para expansão.
 ![shape](https://github.com/pammagalhaes/Predict_house_prices/assets/113152370/c0395056-d746-4188-8adb-b8e29f653696)
@@ -130,4 +130,6 @@ Cada modelo foi treinado e avaliado usando métricas como **MAE**, **MAPE** e **
 
 O modelo final escolhido foi o **XGBoost Regressor**, devido a um bom desempenho na análise das métricas e por ter um processamento mais leve que os modelos de árvore.
 
-# 6. Deploy do modelo
+# 6. Resultado do modelo
+<img width="365" alt="image" src="https://github.com/pammagalhaes/Predict_house_prices/assets/113152370/341bfda5-9660-4082-b896-dfd1073123bb">
+Esse modelo de regressão para previsão de preços de casas obteve um MAPE (Erro Percentual Absoluto Médio) de 9,77%. Isso significa que, em média, as previsões do modelo desviam-se dos valores reais em aproximadamente 9,77%. No contexto de negociações imobiliárias, um MAPE de 9,77% indica que o modelo é relativamente preciso, mas ainda há margem para melhorias. 
