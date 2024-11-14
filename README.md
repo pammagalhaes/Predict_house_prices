@@ -3,7 +3,7 @@
 Com 79 variáveis explicativas que descrevem (quase) todos os aspectos das residências em Ames, Iowa, o desafio deste projeto foi prever o preço final de cada casa. Estas variáveis abrangem desde características físicas das propriedades, como o tamanho do lote e a área habitável, até detalhes mais específicos, como o tipo de aquecimento e a qualidade da cozinha. Utilizando esses dados detalhados, o objetivo era construir um modelo de regressão capaz de prever com precisão o valor de venda das casas.
 
 # 2.Context Analysis
-- **SalePrice**: o preço de venda da propriedade em dólares. Esta é a variável alvo que você está tentando prever.
+- **SalePrice**: o preço de venda da propriedade em dólares. Esta é a variável alvo que estamos tentando prever.
 - **MSSubClass**: a classe do edifício.
 - **MSZoning**: a classificação geral de zoneamento.
 - **LotFrontage**: metros lineares de rua conectados à propriedade.
